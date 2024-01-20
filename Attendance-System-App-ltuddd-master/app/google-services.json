@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "220341390179",
+    "firebase_url": "https://classattendance-ltuddd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "classattendance-ltuddd",
+    "storage_bucket": "classattendance-ltuddd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220341390179:android:c73bbdf8a9f17c1fe46156",
+        "android_client_info": {
+          "package_name": "com.example.attendancesystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBprpw8L9r5Rf006W3JEmprXHGVV6A3l98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

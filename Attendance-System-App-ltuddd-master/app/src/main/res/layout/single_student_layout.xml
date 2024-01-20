@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:padding="3dp"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                app:cardCornerRadius="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                app:cardElevation="0.5dp"
+                android:foreground="?selectableItemBackground">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:padding="5dp"
+                        android:layout_margin="3dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorRed"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_delete" />
+                    </RelativeLayout>
+
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_margin="3dp"
+                        android:padding="5dp"
+                        android:weightSum="5"
+                        android:id="@+id/forceground_itemstudent"
+                        android:background="@color/colorWhite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/image_account"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:src="@drawable/ic_account"
+                            />
+                        <LinearLayout
+                            android:padding="2dp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintRight_toLeftOf="@id/image_account"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_weight="3.5"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp">
+                            <TextView
+                                android:textColor="@color/colorPrimary"
+                                android:id="@+id/studentNameTV"
+                                android:textSize="17sp"
+                                android:text="Name"
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="4dp"
+                                android:textSize="15sp"
+                                android:id="@+id/studentIDv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="id"
+                                android:textAlignment="center"
+                                />
+
+                            <TextView
+                                android:layout_marginTop="4dp"
+                                android:textSize="12sp"
+                                android:id="@+id/studentCourseTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Mã lớp"
+                                android:textAlignment="center"
+                                />
+                        </LinearLayout>
+
+                        <!--                    <LinearLayout-->
+                        <!--                        android:layout_weight="2"-->
+                        <!--                        android:layout_width="0dp"-->
+                        <!--                        android:layout_height="wrap_content"-->
+                        <!--                        android:gravity="center"-->
+                        <!--                        android:layout_gravity="center"-->
+                        <!--                        >-->
+                        <!--                        <ImageView-->
+
+                        <!--                            android:paddingRight="20dp"-->
+                        <!--                            android:id="@+id/PhoneIVId"-->
+                        <!--                            android:tint="@color/colorPrimary"-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            />-->
+                        <!--                        <ImageView-->
+                        <!--                            android:layout_marginRight="3dp"-->
+                        <!--                            android:id="@+id/MessageIVId"-->
+                        <!--                            android:tint="@color/colorPrimary"-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            />-->
+                        <!--                    </LinearLayout>-->
+                    </android.support.constraint.ConstraintLayout>
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
