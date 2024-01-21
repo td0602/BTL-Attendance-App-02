@@ -18,7 +18,7 @@ import java.text.Normalizer;
 import java.util.regex.Pattern;
 
 
-public class ProcessQRDataActivity extends AppCompatActivity {
+public class ProcessQRDataActivity extends AppCompatActivity2 {
 
     private TextView name,id,desig,depat,tShift;
 

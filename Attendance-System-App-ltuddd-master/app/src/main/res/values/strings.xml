@@ -94,6 +94,10 @@
     <string name="intro_blood_donation">Course Allocation System</string>
     <string name="intro_find_location">Take live Attendance</string>
 
+    //check internet
+    <string name="oops">OOPS!</string>
+    <string name="not_connect">No Internet Connection</string>
+    <string name="check_connection">Please check your connection</string>
 
 
 </resources>

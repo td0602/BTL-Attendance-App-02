@@ -23,7 +23,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class StudentLoginActivity extends AppCompatActivity {
+public class StudentLoginActivity extends AppCompatActivity2 {
     private EditText studentIDET,studentPassET;
     private Button studentLoginBtn;
     private DatabaseReference studentRef;

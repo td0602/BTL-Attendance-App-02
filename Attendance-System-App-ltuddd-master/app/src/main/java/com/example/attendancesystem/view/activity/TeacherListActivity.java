@@ -35,7 +35,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class TeacherListActivity extends AppCompatActivity implements ItemTouchHelperListenerTeacher {
+public class TeacherListActivity extends AppCompatActivity2 implements ItemTouchHelperListenerTeacher {
     private Toolbar teacherListToolbar;
     private FloatingActionButton addTeacherButton;
     private RecyclerView teacherListRv;

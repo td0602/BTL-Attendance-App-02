@@ -27,7 +27,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class AdminLoginActivity extends AppCompatActivity {
+public class AdminLoginActivity extends AppCompatActivity2{
     private LinearLayout goSignUp;
     private EditText adminSignINEmailET,adminSingInPassET;
     private Button adminLogInBtn;

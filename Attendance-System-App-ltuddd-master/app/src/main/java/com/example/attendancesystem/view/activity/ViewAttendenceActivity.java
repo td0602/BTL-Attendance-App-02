@@ -31,7 +31,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class ViewAttendenceActivity extends AppCompatActivity {
+public class ViewAttendenceActivity extends AppCompatActivity2 {
     private RecyclerView viewAttendanceRV;
     private  String intentded_course,intentDate;
     private DatabaseReference studentRef,deptref,batchRef,attendanceRef;

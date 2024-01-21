@@ -43,7 +43,7 @@ import java.util.UUID;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class EditTeacherActivity extends AppCompatActivity {
+public class EditTeacherActivity extends AppCompatActivity2 {
     private static final int PICK_IMAGE_REQUEST = 22 ;
 
     private Toolbar addTeacherToolbar;

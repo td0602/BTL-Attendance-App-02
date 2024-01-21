@@ -22,7 +22,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DeptActivity extends AppCompatActivity {
+public class DeptActivity extends AppCompatActivity2 {
     private Spinner tDeptSp,tShiftSp;
     private Button tNextBtn;
     private DatabaseReference tDeptRef;

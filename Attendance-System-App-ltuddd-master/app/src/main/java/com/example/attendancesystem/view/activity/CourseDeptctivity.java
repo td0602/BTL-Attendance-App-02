@@ -24,7 +24,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseDeptctivity extends AppCompatActivity {
+public class CourseDeptctivity extends AppCompatActivity2 {
 
     private Spinner cDeptSp,cShiftSp;
     private Button cNextBtn;

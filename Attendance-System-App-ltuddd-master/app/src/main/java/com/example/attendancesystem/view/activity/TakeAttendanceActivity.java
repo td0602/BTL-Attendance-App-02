@@ -33,7 +33,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class TakeAttendanceActivity extends AppCompatActivity {
+public class TakeAttendanceActivity extends AppCompatActivity2 {
 
     private  String intentded_course,intentDate;
     private DatabaseReference studentRef,deptref,batchRef,attendanceRef,presentRef,absentRef;

@@ -28,7 +28,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class SelectedCourseActivity extends AppCompatActivity {
+public class SelectedCourseActivity extends AppCompatActivity2 {
    private Spinner selectCourseSp;
    private Button nextBtn;
    private String intendedId,intendedShift;

@@ -15,7 +15,7 @@ import com.example.attendancesystem.storage.SaveUser;
 import com.example.attendancesystem.view.fragment.StudentFragment;
 import com.example.attendancesystem.view.fragment.TeacherFragment;
 
-public class StudentActivity extends AppCompatActivity {
+public class StudentActivity extends AppCompatActivity2 {
 
     private NavigationView student_nav_view;
     private DrawerLayout student_nav_drawer;

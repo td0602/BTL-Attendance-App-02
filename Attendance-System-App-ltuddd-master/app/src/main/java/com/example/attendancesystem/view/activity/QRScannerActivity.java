@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-public class QRScannerActivity extends AppCompatActivity {
+public class QRScannerActivity extends AppCompatActivity2 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

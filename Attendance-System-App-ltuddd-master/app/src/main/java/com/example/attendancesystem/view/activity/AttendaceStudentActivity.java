@@ -20,7 +20,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class AttendaceStudentActivity extends AppCompatActivity {
+public class AttendaceStudentActivity extends AppCompatActivity2 {
     private  String intentded_course;
    private DatabaseReference studentRef,deptref,batchRef;
    private String dept,batch;

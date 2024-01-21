@@ -19,7 +19,7 @@ import com.example.attendancesystem.storage.SaveUser;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IntroActivity extends AppCompatActivity {
+public class IntroActivity extends AppCompatActivity2 {
 
     private ViewPager intro_viewpager;
     private TabLayout intro_tab_indecator;

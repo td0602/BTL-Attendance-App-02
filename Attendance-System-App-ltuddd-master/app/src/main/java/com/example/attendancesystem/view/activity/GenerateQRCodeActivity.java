@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-public class GenerateQRCodeActivity extends AppCompatActivity {
+public class GenerateQRCodeActivity extends AppCompatActivity2 {
 
     private String studentName;
 

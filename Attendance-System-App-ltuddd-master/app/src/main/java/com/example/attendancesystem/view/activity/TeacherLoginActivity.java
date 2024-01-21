@@ -23,7 +23,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class TeacherLoginActivity extends AppCompatActivity {
+public class TeacherLoginActivity extends AppCompatActivity2 {
     public static Activity fa;
     private EditText teacherIdEt,teacherPassword;
     private List<String> teacherIdList=new ArrayList<>();

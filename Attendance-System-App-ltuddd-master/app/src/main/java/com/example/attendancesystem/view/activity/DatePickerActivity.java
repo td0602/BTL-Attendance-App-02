@@ -16,7 +16,7 @@ import com.example.attendancesystem.R;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class DatePickerActivity extends AppCompatActivity {
+public class DatePickerActivity extends AppCompatActivity2 {
     private String intent_course;
     private Button nextBtn;
     private EditText dateET;

@@ -31,7 +31,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class ShowAttendanceActivity extends AppCompatActivity {
+public class ShowAttendanceActivity extends AppCompatActivity2 {
    private Spinner showAttendanceSp;
    private Button showAttendanceBtn;
     private String courses;

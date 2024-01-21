@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.example.attendancesystem.R;
 import com.example.attendancesystem.storage.SaveUser;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity2 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

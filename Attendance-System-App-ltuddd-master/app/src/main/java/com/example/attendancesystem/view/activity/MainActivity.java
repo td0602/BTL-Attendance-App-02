@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 import com.example.attendancesystem.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity2 {
     private LinearLayout adminCard,teacherCard,studentCard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

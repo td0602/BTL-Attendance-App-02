@@ -23,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseListActivity extends AppCompatActivity {
+public class CourseListActivity extends AppCompatActivity2 {
    private FloatingActionButton addCourseButton;
    private RecyclerView courseRv;
    private String intented_dept,intented_Shift;

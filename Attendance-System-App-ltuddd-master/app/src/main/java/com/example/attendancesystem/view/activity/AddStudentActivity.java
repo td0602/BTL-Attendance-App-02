@@ -49,7 +49,7 @@ import java.util.Set;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class AddStudentActivity extends AppCompatActivity {
+public class AddStudentActivity extends AppCompatActivity2 {
 
     private static final int PICK_IMAGE_REQUEST = 22 ;
     private Toolbar addStudentToolbar;

@@ -25,7 +25,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class SelectStudentActivity extends AppCompatActivity {
+public class SelectStudentActivity extends AppCompatActivity2 {
     private Spinner deptSP,batchSP,shiftSp;
     private Button nextBtn;
     private List<String> deptList=new ArrayList<>();

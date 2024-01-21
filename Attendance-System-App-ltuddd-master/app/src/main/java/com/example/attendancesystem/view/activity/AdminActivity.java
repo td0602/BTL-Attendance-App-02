@@ -14,7 +14,7 @@ import com.example.attendancesystem.R;
 import com.example.attendancesystem.storage.SaveUser;
 import com.example.attendancesystem.view.fragment.AdminHomeFragment;
 
-public class AdminActivity extends AppCompatActivity {
+public class AdminActivity extends AppCompatActivity2 {
     private NavigationView admin_nav_view;
     private DrawerLayout admin_nav_drawer;
     private Toolbar admin_toolbar;

@@ -40,7 +40,7 @@ import java.util.regex.Pattern;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class AddTeacherActivity extends AppCompatActivity {
+public class AddTeacherActivity extends AppCompatActivity2 {
     private static final int PICK_IMAGE_REQUEST = 22 ;
 
     private Toolbar addTeacherToolbar;

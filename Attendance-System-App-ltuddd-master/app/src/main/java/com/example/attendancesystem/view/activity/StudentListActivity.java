@@ -32,7 +32,7 @@ import java.util.List;
 
 import xyz.hasnat.sweettoast.SweetToast;
 
-public class StudentListActivity extends AppCompatActivity implements ItemTouchHelperListener {
+public class StudentListActivity extends AppCompatActivity2 implements ItemTouchHelperListener {
    private Toolbar studentListToolbar;
    private FloatingActionButton addStudentBtn;
    private DatabaseReference studentListRef;

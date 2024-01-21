@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:src="@drawable/wifi_off_svgrepo_com"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    
+    <TextView
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#787878"
+        android:text="@string/oops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:textColor="#777777"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/not_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:textColor="#767676"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/check_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_retry"
+        android:text="Retry"
+        android:background="@drawable/shape_btn"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="50dp"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
